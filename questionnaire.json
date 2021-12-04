@@ -17,14 +17,6 @@
         ]
     },
     {
-        "label": "Categoría",
-        "options": [
-            "Docente",
-            "Administrativo",
-            "Ambos cargos"
-        ]
-    },
-    {
         "label": "Jornada",
         "options": [
             "Tiempo parcial",

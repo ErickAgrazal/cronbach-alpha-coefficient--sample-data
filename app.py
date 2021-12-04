@@ -10,7 +10,7 @@ from pathlib import Path
 QUESTIONNARIE_FILENAME = os.environ.get('QUESTIONNARIE_FILENAME', 'questionnaire.json')
 QUESTIONNAIRE_PATH = Path(QUESTIONNARIE_FILENAME)
 QUESTIONNAIRE_PATH_RESULT = os.environ.get('QUESTIONNAIRE_PATH_RESULT', 'questionnaire.csv')
-SAMPLE_SIZE = os.environ.get('SAMPLE_SIZE', 40)
+SAMPLE_SIZE = os.environ.get('SAMPLE_SIZE', 20)
 EXPECTED_THRESHOLD = os.environ.get('EXPECTED_THRESHOLD', 0.75)
 
 
