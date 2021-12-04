@@ -1,19 +1,31 @@
-,0,1,2,3,4
-Género,0,0,0,0,1
-Edad,0,5,4,2,4
-Categoría,0,1,0,1,0
-1. ¿Ha tenido algún estudiante con discapacidad auditiva o visual?,1,3,1,1,3
-2. ¿Conoce las competencias necesarias que requiere como docente o administrativo la atención a estudiantes con discapacidad auditiva o visual?,0,1,2,0,0
-3. ¿Sabía que en cualquier momento usted esta en la obligación como docente de educación superior de atender a estudiantes con discapacidad auditiva o visual?,1,2,2,1,3
-4. ¿Tendría en este momento los conocimientos y competencias necesarias para facilitar la atención como administrativo o docente a un estudiante con discapacidad auditiva o visual?,0,1,0,0,1
-5. ¿Piensa usted que las personas con discapacidad auditiva o visual pueden desempeñarse de la misma forma dentro de un aula de clases?,2,3,0,2,2
-6. ¿La facultad brinda cursos sobre como prepararse para la atención a estudiantes con discapacidad auditiva o visual?,0,0,1,2,1
-7. ¿Piensa usted que todos los docentes y/o administrativos de la facultad de Sistemas se encuentran preparados para la atención de estudiantes con discapacidad auditiva o visual?,2,1,2,2,3
-"8. ¿Conoce usted si La Facultad de Sistemas cuenta con los accesos, medidas y estacionamientos necesarios para la atención de personas con discapacidad auditiva o visual?",0,3,0,1,2
-9. ¿Posee algún curso o certificación relacionado a la inclusión de estudiantes con discapacidad auditiva o visual?,0,2,0,1,1
-10. ¿Cree usted que la Facultad de Sistemas está preparada para atender a estudiantes con discapacidad auditiva o visual?,0,1,3,2,3
-11. ¿Considera importante recibir capacitaciones para conocer las competencias necesarias para facilitar la atención a estudiantes con discapacidad auditiva o visual?,2,1,3,3,1
-12. ¿Le gustaría recibir constantemente capacitaciones para adquirir las competencias necesarias para la atención de estudiantes con discapacidad auditiva o visual?,0,3,0,0,1
-13. ¿Se compromete a aplicar dentro de su aula de clases si así lo requiere las competencias para la atención de estudiantes con discapacidad auditiva y visual?,1,3,2,1,1
-14. ¿Aceptaría facilitar el proceso de enseñanza-aprendizaje a estudiantes con discapacidad auditiva o visual?,0,2,1,2,2
-"15. ¿Considera usted recomendable reforzar sobre las medidas de inclusión que tienen la facultad tanto a administrativos, docentes y estudiantes?",0,3,2,2,0
+   ,0                     ,1                     ,2                     ,3                     ,4
+0  ,Masculino             ,Femenino              ,Femenino              ,Masculino             ,Masculino
+1  ,De 25 a 30 años       ,De 31 a 35 años       ,De 36 a 40 años       ,De 25 a 30 años       ,De 31 a 35 años
+2  ,Docente               ,Docente               ,Administrativo        ,Docente               ,Administrativo
+3  ,Tiempo parcial        ,Tiempo parcial        ,Tiempo parcial        ,Tiempo completo       ,Tiempo parcial
+4  ,No                    ,Sí                    ,Prefiero no responder ,Prefiero no responder ,Sí
+5  ,Sí                    ,Prefiero no responder ,Sí                    ,No                    ,No
+6  ,No                    ,Sí                    ,No                    ,Sí                    ,No
+7  ,Prefiero no responder ,Sí                    ,No                    ,Sí                    ,Prefiero no responder
+8  ,Mucho                 ,Mucho                 ,Mucho                 ,Poco                  ,Mucho
+9  ,Poco                  ,Poco                  ,Nada                  ,Poco                  ,Mucho
+10 ,Poco                  ,Mucho                 ,Mucho                 ,Mucho                 ,Mucho
+11 ,Mucho                 ,Poco                  ,Poco                  ,Mucho                 ,Nada
+12 ,Poco                  ,Nada                  ,Nada                  ,Mucho                 ,Nada
+13 ,Nada                  ,Poco                  ,Nada                  ,Mucho                 ,Poco
+14 ,Mucho                 ,Poco                  ,Poco                  ,Mucho                 ,Mucho
+15 ,Nada                  ,Poco                  ,Poco                  ,Mucho                 ,Poco
+16 ,Nada                  ,Poco                  ,Mucho                 ,Poco                  ,Nada
+17 ,Poco                  ,Poco                  ,Poco                  ,Nada                  ,Nada
+18 ,Mucho                 ,Poco                  ,Poco                  ,Mucho                 ,Mucho
+19 ,Poco                  ,Mucho                 ,Poco                  ,Mucho                 ,Nada
+20 ,Prefiero no responder ,No                    ,Prefiero no responder ,No                    ,No
+21 ,Sí                    ,Sí                    ,Sí                    ,Sí                    ,Prefiero no responder
+22 ,Prefiero no responder ,Sí                    ,Sí                    ,Sí                    ,No
+23 ,No                    ,Sí                    ,Prefiero no responder ,Prefiero no responder ,No
+24 ,Prefiero no responder ,Prefiero no responder ,Sí                    ,Prefiero no responder ,No
+25 ,Prefiero no responder ,Prefiero no responder ,Prefiero no responder ,No                    ,No
+26 ,Sí                    ,Prefiero no responder ,Prefiero no responder ,Prefiero no responder ,No
+27 ,No                    ,Prefiero no responder ,Prefiero no responder ,Sí                    ,Prefiero no responder
+28 ,Prefiero no responder ,No                    ,No                    ,Sí                    ,No
+29 ,No                    ,Sí                    ,Prefiero no responder ,Sí                    ,Sí

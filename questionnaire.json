@@ -20,7 +20,7 @@
         "label": "Categoría",
         "options": [
             "Docente",
-            "Administrativo",   
+            "Administrativo",
             "Ambos cargos"
         ]
     },
@@ -34,7 +34,7 @@
     {
         "label": "1. ¿Ha atendido usted a algún estudiante con discapacidad auditiva o visual?",
         "options": [
-            "Si",
+            "Sí",
             "No",
             "Prefiero no responder"
         ]
@@ -42,24 +42,24 @@
     {
         "label": "2. ¿Sabía que en cualquier momento usted esta en la obligación como docente de educación superior de atender a estudiantes con discapacidad auditiva o visual?", 
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
         "label": "3. ¿Tendría en este momento los conocimientos y habilidades necesarias para facilitar la atención como administrativo o docente a un estudiante con discapacidad auditiva o visual?", 
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
         "label": "4. ¿Piensa usted que las personas con discapacidad auditiva o visual pueden desempeñarse de la misma forma dentro de un aula de clases?", 
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
@@ -74,82 +74,171 @@
     {
         "label": "6. Empleo de lengua de signos", 
         "options": [
-            "Si", 
-            "No", 
-            "Prefiero no responder"
+            "Mucho", 
+            "Poco", 
+            "Nada"
         ]
     },
     {
         "label": "7. Empleo de métodos de lecto escritura", 
         "options": [
-            "Si", 
-            "No", 
-            "Prefiero no responder"
+            "Mucho", 
+            "Poco", 
+            "Nada"
         ]
     },
     {
         "label": "8. Uso del dactilológico", 
         "options": [
-            "Si", 
-            "No", 
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "9. Ofrecer atención individualizada a alumnos con discapacidad visual/auditiva", 
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "10. Aplicación de la pedagogía terapéutica",
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "11. Trabajar con los padres de familia",
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "12. Utilizar programas informáticos específicos de discriminación auditiva",
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "13. Utilizar software adecuado para los alumnos sordos que refuerce las áreas de aprendizaje",
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "14. Uso de técnicas de estimulación multisensorial",
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "15. Diseñar audio clases para el alumno",
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "16. Diseñar módulos de clases",
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "17. ¿La facultad de Ingeniería de Sistemas y Computación brinda cursos sobre como prepararse para la atención a estudiantes con discapacidad auditiva o visual?",
+        "options": [
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
-        "label": "9. ¿Posee algún curso o certificación relacionado a la inclusión de estudiantes con discapacidad auditiva o visual?", 
+        "label": "18. ¿Piensa usted que todos los docentes y/o administrativos de la facultad de Ingeniería de Sistemas y Computación se encuentran preparados para la atención de estudiantes con discapacidad auditiva o visual?",
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
-        "label": "10. ¿Cree usted que la Facultad de Sistemas está preparada para atender a estudiantes con discapacidad auditiva o visual?", 
+        "label": "19. ¿Conoce usted si La Facultad de Ingeniería de Sistemas y Computación cuenta con los accesos, medidas y estacionamientos necesarios para la atención de personas con discapacidad auditiva o visual?",
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
-        "label": "11. ¿Considera importante recibir capacitaciones para conocer las competencias necesarias para facilitar la atención a estudiantes con discapacidad auditiva o visual?", 
+        "label": "20. ¿Posee algún curso o certificación relacionado a la inclusión de estudiantes con discapacidad auditiva o visual?",
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
-        "label": "12. ¿Le gustaría recibir constantemente capacitaciones para adquirir las competencias necesarias para la atención de estudiantes con discapacidad auditiva o visual?", 
+        "label": "21. ¿Cree usted que la Facultad de Ingeniería de Sistemas y Computación está preparada para atender a estudiantes con discapacidad auditiva o visual?",
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
-        "label": "13. ¿Se compromete a aplicar dentro de su aula de clases si así lo requiere las competencias para la atención de estudiantes con discapacidad auditiva y visual?", 
+        "label": "22. ¿Considera importante recibir capacitaciones para conocer las competencias necesarias para facilitar la atención a estudiantes con discapacidad auditiva o visual?",
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
-        "label": "14. ¿Aceptaría facilitar el proceso de enseñanza-aprendizaje a estudiantes con discapacidad auditiva o visual?", 
+        "label": "23. ¿Le gustaría recibir constantemente capacitaciones para adquirir las competencias necesarias para la atención de estudiantes con discapacidad auditiva o visual?",
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     },
     {
-        "label": "15. ¿Considera usted recomendable reforzar sobre las medidas de inclusión que tienen la facultad tanto a administrativos, docentes y estudiantes?", 
+        "label": "24. ¿Se compromete a aplicar dentro de su aula de clases si así lo requiere las competencias para la atención de estudiantes con discapacidad auditiva y visual?",
         "options": [
-            "Si", 
-            "No", 
+            "Sí",
+            "No",
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "25. ¿Aceptaría facilitar el proceso de enseñanza-aprendizaje a estudiantes con discapacidad auditiva o visual?",
+        "options": [
+            "Sí",
+            "No",
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "26. ¿Considera usted recomendable reforzar sobre las medidas de inclusión que tienen la facultad tanto a administrativos, docentes y estudiantes?",
+        "options": [
+            "Sí",
+            "No",
             "Prefiero no responder"
         ]
     }
-
 ]
+
+

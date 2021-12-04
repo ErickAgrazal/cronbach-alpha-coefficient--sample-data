@@ -10,8 +10,13 @@ from pathlib import Path
 QUESTIONNARIE_FILENAME = os.environ.get('QUESTIONNARIE_FILENAME', 'questionnaire.json')
 QUESTIONNAIRE_PATH = Path(QUESTIONNARIE_FILENAME)
 QUESTIONNAIRE_PATH_RESULT = os.environ.get('QUESTIONNAIRE_PATH_RESULT', 'questionnaire.csv')
-SAMPLE_SIZE = os.environ.get('SAMPLE_SIZE', 5)
-EXPECTED_THRESHOLD = os.environ.get('EXPECTED_THRESHOLD', 0.8)
+SAMPLE_SIZE = os.environ.get('SAMPLE_SIZE', 60)
+EXPECTED_THRESHOLD = os.environ.get('EXPECTED_THRESHOLD', 0.80)
+
+
+def map_selections_to_text(selection_id, question_id):
+    print(selection_id, question_id)
+
 
 def generate_selected_options_for_label(options, sample_size=SAMPLE_SIZE):
     return np.random.randint(0, len(options), size=sample_size)
@@ -33,8 +38,20 @@ def main():
         else:
             print(f'Found one on try {counter}. Alpha of cronbach is: {cronbach[0]}')
             break
-    print(result_dataframe.T.columns)
-    result_dataframe.T.to_csv(QUESTIONNAIRE_PATH_RESULT)
+    # TODO:
+    # -------------------------------------
+    # Refactor to use full np/pd potential
+    options = data['options'].to_numpy()
+    traversed_dataframe = result_dataframe.T.to_numpy()
+    responses = []
+    for i, td in enumerate(traversed_dataframe):
+        response = {}
+        for j in range(SAMPLE_SIZE):
+            response[j] = options[i][td[j]]
+        responses.append(response)
+    # -------------------------------------
+    response_df = pd.DataFrame(responses)
+    response_df.to_csv(QUESTIONNAIRE_PATH_RESULT)
 
 if __name__ == "__main__":
     main()
