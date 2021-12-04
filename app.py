@@ -14,10 +14,6 @@ SAMPLE_SIZE = os.environ.get('SAMPLE_SIZE', 60)
 EXPECTED_THRESHOLD = os.environ.get('EXPECTED_THRESHOLD', 0.80)
 
 
-def map_selections_to_text(selection_id, question_id):
-    print(selection_id, question_id)
-
-
 def generate_selected_options_for_label(options, sample_size=SAMPLE_SIZE):
     return np.random.randint(0, len(options), size=sample_size)
 
