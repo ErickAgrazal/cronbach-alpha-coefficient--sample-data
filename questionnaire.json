@@ -1,0 +1,155 @@
+[
+    {
+        "label": "Género",
+        "options": [
+            "Masculino",
+            "Femenino"
+        ]
+    },
+    {
+        "label": "Edad",
+        "options": [
+            "De 18 a 24 años",
+            "De 25 a 30 años",
+            "De 31 a 35 años",
+            "De 36 a 40 años",
+            "Más de 40 años"
+        ]
+    },
+    {
+        "label": "Categoría",
+        "options": [
+            "Docente",
+            "Administrativo",   
+            "Ambos cargos"
+        ]
+    },
+    {
+        "label": "Jornada",
+        "options": [
+            "Tiempo parcial",
+            "Tiempo completo"
+        ]
+    },
+    {
+        "label": "1. ¿Ha atendido usted a algún estudiante con discapacidad auditiva o visual?",
+        "options": [
+            "Si",
+            "No",
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "2. ¿Sabía que en cualquier momento usted esta en la obligación como docente de educación superior de atender a estudiantes con discapacidad auditiva o visual?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "3. ¿Tendría en este momento los conocimientos y habilidades necesarias para facilitar la atención como administrativo o docente a un estudiante con discapacidad auditiva o visual?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "4. ¿Piensa usted que las personas con discapacidad auditiva o visual pueden desempeñarse de la misma forma dentro de un aula de clases?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "5. Conocimiento para la incorporación de actividades de experimentación activa", 
+        "options": [
+            "Mucho", 
+            "Poco", 
+            "Nada"
+        ]
+    },
+    {
+        "label": "6. Empleo de lengua de signos", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "7. Empleo de métodos de lecto escritura", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "8. Uso del dactilológico", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "9. ¿Posee algún curso o certificación relacionado a la inclusión de estudiantes con discapacidad auditiva o visual?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "10. ¿Cree usted que la Facultad de Sistemas está preparada para atender a estudiantes con discapacidad auditiva o visual?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "11. ¿Considera importante recibir capacitaciones para conocer las competencias necesarias para facilitar la atención a estudiantes con discapacidad auditiva o visual?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "12. ¿Le gustaría recibir constantemente capacitaciones para adquirir las competencias necesarias para la atención de estudiantes con discapacidad auditiva o visual?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "13. ¿Se compromete a aplicar dentro de su aula de clases si así lo requiere las competencias para la atención de estudiantes con discapacidad auditiva y visual?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "14. ¿Aceptaría facilitar el proceso de enseñanza-aprendizaje a estudiantes con discapacidad auditiva o visual?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    },
+    {
+        "label": "15. ¿Considera usted recomendable reforzar sobre las medidas de inclusión que tienen la facultad tanto a administrativos, docentes y estudiantes?", 
+        "options": [
+            "Si", 
+            "No", 
+            "Prefiero no responder"
+        ]
+    }
+
+]
