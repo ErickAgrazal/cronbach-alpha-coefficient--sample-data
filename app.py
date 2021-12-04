@@ -10,8 +10,8 @@ from pathlib import Path
 QUESTIONNARIE_FILENAME = os.environ.get('QUESTIONNARIE_FILENAME', 'questionnaire.json')
 QUESTIONNAIRE_PATH = Path(QUESTIONNARIE_FILENAME)
 QUESTIONNAIRE_PATH_RESULT = os.environ.get('QUESTIONNAIRE_PATH_RESULT', 'questionnaire.csv')
-SAMPLE_SIZE = os.environ.get('SAMPLE_SIZE', 60)
-EXPECTED_THRESHOLD = os.environ.get('EXPECTED_THRESHOLD', 0.80)
+SAMPLE_SIZE = os.environ.get('SAMPLE_SIZE', 40)
+EXPECTED_THRESHOLD = os.environ.get('EXPECTED_THRESHOLD', 0.75)
 
 
 def generate_selected_options_for_label(options, sample_size=SAMPLE_SIZE):
@@ -29,7 +29,7 @@ def main():
             result_dataframe[value[0]] = value[len(value) - 1]
         cronbach = pg.cronbach_alpha(data=result_dataframe)
         if(float(cronbach[0]) < EXPECTED_THRESHOLD):
-            print(f'Not enough alpha of cronbach after {counter} tries')
+            print(f'Not enough alpha of cronbach after {counter} tries. Sample Size {SAMPLE_SIZE} and Expected threshold {EXPECTED_THRESHOLD}')
             continue
         else:
             print(f'Found one on try {counter}. Alpha of cronbach is: {cronbach[0]}')
